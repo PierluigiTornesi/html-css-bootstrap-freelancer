@@ -2,6 +2,18 @@
 img{
     max-width: 100%;
 }
+/* commons  */
+/* classe per il padding bottom */
+.padding-bt{
+    padding-bottom: 1rem;
+}
+/* classe per il padding top */
+.padding-tp{
+    padding-top: 1rem;
+}
+.text-center{
+    text-align: center;
+}
 /* classe per l'header */
 .header{
     background-color: #2C3E50 ;
@@ -19,7 +31,6 @@ img{
 /* classe per l'hero */
 .hero{
     background-color: #1ABC9C;
-    text-align: center;
     padding: 2rem;
     color: white;
 }
@@ -31,7 +42,6 @@ img{
 }
 /* classe per il main */
 .main{
-    text-align: center;
     margin-top: 2rem;
 }
 /* classe per il container del main */
@@ -53,11 +63,6 @@ img{
     color: white;
     margin-top: 1rem;
 }
-/* classe per il titolo della sezione about  */
-.tit-about{
-    padding-top: 1rem;
-    text-align: center;
-}
 /* classe per il container del contenuto della sezione about */
 .cont-about{
     max-width: 60%;
@@ -67,7 +72,6 @@ img{
 }
 /*  classe per il container del bottone*/
 .button-down{
-    text-align: center;
     margin-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -87,8 +91,6 @@ img{
 }
 /* classe per il titolo dei contatti */
 .tit-contact{
-    padding-top: 1rem;
-    text-align: center;
     color: #2C3E50;
 }
 /*classe per la lista dei contatti  */
@@ -118,4 +120,38 @@ img{
 /* id per indicare il bottone della lista */
 #button{
     margin-top: 1rem;
+}
+/* classe per il container del footer */
+.cont-footer{
+    background-color: #3A546D;
+}
+/* classe per il container dei contatti */
+.cont{
+    max-width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+/* classe per la lista dei social */
+.cont ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+/* classe per il cerchio attorno al social */
+.circle{
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+/* classe per il link dentro il testo */
+.cont a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+/* classe per la parte del copyright */
+.copy{
+    color: white;
+    background-color: #2C3E50;
+    padding: 2rem;
 }
