@@ -53,7 +53,7 @@ img{
     color: white;
     margin-top: 1rem;
 }
-/* classe per il titolo della sezione about */
+/* classe per il titolo della sezione about  */
 .tit-about{
     padding-top: 1rem;
     text-align: center;
@@ -78,4 +78,44 @@ img{
     color: inherit;
     border: 1px solid white;
     border-radius: 5px;
+}
+/* classe per il container dei contatti */
+.cont-contact{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+/* classe per il titolo dei contatti */
+.tit-contact{
+    padding-top: 1rem;
+    text-align: center;
+    color: #2C3E50;
+}
+/*classe per la lista dei contatti  */
+.list-contact ul{
+    list-style-type: none;
+}
+/* id per indicare il testo della lista */
+#text{
+    font-size: 1.2rem;
+    color: #2C3E50;
+    font-weight: 500;
+}
+/* id per indicare l'area di testo */
+#area{
+    border-style: inset;
+    border-width: 0;
+    border-bottom: 1px solid #2C3E50;
+}
+/* classe per il bottone per inviare */
+.button-send{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    background-color: #1ABC9C;
+}
+/* id per indicare il bottone della lista */
+#button{
+    margin-top: 1rem;
 }
