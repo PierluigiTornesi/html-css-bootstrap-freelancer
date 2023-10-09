@@ -1,0 +1,81 @@
+/* RESET IMG */
+img{
+    max-width: 100%;
+}
+/* classe per l'header */
+.header{
+    background-color: #2C3E50 ;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+/* classe per il container dell'header */
+.header-cont{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* classe per l'hero */
+.hero{
+    background-color: #1ABC9C;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+/* classe per l'immagine */
+.img-cont{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 1rem;
+}
+/* classe per il main */
+.main{
+    text-align: center;
+    margin-top: 2rem;
+}
+/* classe per il container del main */
+.main-cont{
+    max-width: 70%;
+    margin: 0 auto;
+}
+/* classe per il colore del titolo del main */
+.tit-main h3{
+    color: #2C3E50;
+}
+/* classe per arrotondare i bordi  dell'immagine */
+.arr{
+    border-radius: 10px;
+}
+/* classe per la sezione about */
+.about-section{
+    background-color: #1ABC9C;
+    color: white;
+    margin-top: 1rem;
+}
+/* classe per il titolo della sezione about */
+.tit-about{
+    padding-top: 1rem;
+    text-align: center;
+}
+/* classe per il container del contenuto della sezione about */
+.cont-about{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+/*  classe per il container del bottone*/
+.button-down{
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* classe per il bottone */
+.button{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+}
