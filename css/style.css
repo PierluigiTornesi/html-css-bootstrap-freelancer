@@ -21,6 +21,17 @@ img{
     position: fixed;
     z-index: 1;
 }
+/* classe per la lista dell'header */
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+/* classe per i link dell'header */
+.header a{
+    color: white;
+    text-decoration: none;
+}
 /* classe per il container dell'header */
 .header-cont{
     max-width: 70%;
@@ -31,7 +42,7 @@ img{
 /* classe per l'hero */
 .hero{
     background-color: #1ABC9C;
-    padding: 2rem;
+    padding: 3rem;
     color: white;
 }
 /* classe per l'immagine */
